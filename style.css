@@ -55,13 +55,6 @@ header{
 .navbar a:hover{
 	color: var(--main-color);
 }
-.burger div{
-	width: 25px;
-	height: 3px;
-	background-color: var(--main-color);
-	margin: 5px;
-}
-
 section{
 	padding: 160px 16% 90px;
 }
@@ -300,7 +293,6 @@ header.sticky{
 	color: var(--second-color);
 	background: var(--main-color);
 }
-
 .contact-form form{
 	position: relative;
 }
@@ -349,7 +341,6 @@ header.sticky{
 	bottom: 2.1rem;
 	right: 2.1rem;
 }
-
 .top i{
 	color: var(--second-color);
 	background: var(--main-color);
@@ -371,7 +362,6 @@ header.sticky{
 		padding: 130px 3% 60px;
 	}
 }
-
 @media (max-width: 970px){
 	:root{
 		--h1-font: 4.2rem;
@@ -394,7 +384,6 @@ header.sticky{
 		grid-template-columns: 1fr;
 	}
 }
-
 @media (max-width: 803px){
 	header{
 		background-color: var(--bg-color);
